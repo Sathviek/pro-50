@@ -7,32 +7,45 @@
         }*/
 
 .grid img{
-    /*display: flex;*/
+    display: flex;
     border:2px solid black;
     border-radius: 50px;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    flex-direction: row;
+   /* flex-direction: row;*/
 }
 .origami{
-     /*display: flex;*/
+     display: flex;
     border-radius: 20px;
     background-color: white;
+    flex-wrap: wrap;
 
     width: 310px;
     background-color: white;
+    
 }
+.header{
+    background-color: rgb(255, 0, 0);
+    display:flex;
+    justify-content: space-between;   
+   }
+   
+   .site-description{
+       display:flex;
+       flex-direction: column;
+       justify-content: first baseline;
+   }
+   
+   .grid{
+       display:flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+   }
+   .footer{
+       display: flex;
+       justify-content: flex-end;
+   }
+   p,h2{
+       text-align: center;
+   }
 
-.menu{
-    /*display: flex;*/
-    justify-content: space-between;
-    background-color: grey;
-    font-size: 20px;
-    font-family: sans-serif;
-    font-weight: 400;
-    color: white;
-}
-body{
-background: whitesmoke;
-
-}
